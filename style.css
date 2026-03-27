@@ -40,6 +40,25 @@ h4 {
   text-align: center;
 }
 
+.comic-relief-regular {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /* font used for byline in header - edit this */
 h5 {
   font-size: 15px;
@@ -56,7 +75,7 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-image: url("./img/Larson.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -133,9 +152,9 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: green;
-  color: white;
-  font-family: "PT Serif", serif; /* font for <p> text */
-  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-family: "Mea Culpa", cursive; /* font for <p> text */
+  font-size: 30px;
   text-align: center;
 }
 
@@ -158,8 +177,8 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("./img/catBG.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-image: url("./img/catputer.jpg"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  color: #3611d9;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }

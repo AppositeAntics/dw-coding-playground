@@ -12,14 +12,11 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "Hose.",
+  "Trousers.",
+  "Shorts.",
+  "Pants.",
+  "Jeans.",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -42,11 +39,11 @@ function addText(content) {
 function dropdownFun() {
   var x = document.getElementById("subject").value;
   if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
+    addText("jenner say qua");
   } else if (x === "vague") {
-    addText("🥱👽🐙🪼🌘");
+    addText("bone app ate it");
   } else if (x === "joyful") {
-    addText("😀😍😸👾👻🕺");
+    addText("excelsior");
   } else if (x === "cloudy") {
     addText("🌦️🌨️🫧🌫️☔⚡🥶");
   } else if (x === "hangry") {
@@ -105,17 +102,17 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "ax murderer",
+  "astrology",
+  "austrews",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "barlia",
+  "barrcitor",
+  "bultherapy",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "can i serder",
+  "cctv",
+  "childive",
 
   "delete search history",
   "delusional jealousy",
@@ -156,15 +153,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "jesuits, dominicans, poor claires, benedictines, cistercians, trappists".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "eat,pray for, imagine, kneel to pray in, chunder up, boast about, imbibde, demand".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "beer, cider, port,roast chicken, pies, whole legs of mutton, picled eggs, spelt wheat, thickened soups".split(
       ","
     );
 // set up the counter
